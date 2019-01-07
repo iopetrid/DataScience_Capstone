@@ -6,7 +6,7 @@
 # 
 #    http://shiny.rstudio.com/
 #
-setwd("/Users/iopetrid/Desktop/Coursera/Data Science/10_Capstone/")
+#setwd("/Users/iopetrid/Desktop/Coursera/Data Science/10_Capstone/")
 bg<-readRDS("./bigram.RData")
 tg<-readRDS("./trigram.RData")
 qd<-readRDS("./quadgram.RData")

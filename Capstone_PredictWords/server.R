@@ -6,7 +6,7 @@
 # 
 #    http://shiny.rstudio.com/
 #
-source('~/Desktop/Coursera/Data Science/10_Capstone/wordPrediction.R', echo=TRUE)
+source('wordPrediction.R', echo=TRUE)
 
 library(shiny)
 library(stringi)

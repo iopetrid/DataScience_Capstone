@@ -1,0 +1,12 @@
+name: Capstone_PredictWords
+title: Capstone_PredictWords
+username:
+account: iopetrid
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 628825
+bundleId: 1800482
+url: https://iopetrid.shinyapps.io/Capstone_PredictWords/
+when: 1546859148.15728
+asMultiple: FALSE
+asStatic: FALSE
