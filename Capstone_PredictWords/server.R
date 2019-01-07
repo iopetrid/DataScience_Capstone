@@ -1,0 +1,23 @@
+#
+# This is the server logic of a Shiny web application. You can run the 
+# application by clicking 'Run App' above.
+#
+# Find out more about building applications with Shiny here:
+# 
+#    http://shiny.rstudio.com/
+#
+source('~/Desktop/Coursera/Data Science/10_Capstone/wordPrediction.R', echo=TRUE)
+
+library(shiny)
+library(stringi)
+library(tm)
+library(RWeka)
+
+
+# Define server logic required to draw a histogram
+shinyServer(function(input, output) {
+   
+  output$predicted_word <- renderPrint({
+    wordPrediction(input$text_input)
+    })
+}) # end of server function
